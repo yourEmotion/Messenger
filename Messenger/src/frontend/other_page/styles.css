@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Mate:ital@1&family=Righteous&display=swap');
+
+body {
+    background-color: rgba(199, 135, 252, 0.3);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.otherPage a {
+    text-decoration: none;
+    cursor: auto;
+}
+
+.otherPage .main {
+    padding-bottom: 150px;
+    padding-top: 70px;
+    width: 100vm;
+    height: 100%;
+    display: flex;
+    overflow: auto;
+}
+
+.otherPage .toChatButton {
+    position: absolute;
+    height: 40px;
+    width: 230px;
+    background-color: rgb(70, 132, 214);
+    top: 220px;
+    right: 150px;
+    size: 50px;
+    border-radius: 10px;
+    color: rgb(243, 210, 167);
+    font-size: 18px;
+}
+
+.otherPage .toChatButton:hover {
+    background-color: rgb(83, 122, 172);
+    color: rgb(245, 189, 117);
+    cursor: pointer;
+}
+
+.otherPage img {
+    width: 200px;
+    height: 200px;
+    margin-left: min(25%, 300px);
+    margin-top: 50px;
+}
+
+.otherPage h1 {
+    color: #060657;
+    font-family: Josefin Sans;
+    font-size: 40px;
+    left: 100px;
+}
+
+.otherPage h2 {
+    font-family: Mate;
+    font-size: 24px;
+    left: 100px;
+}
+
+.otherPage .firstname {
+    position: relative;
+    top: 55px;
+}
+
+.otherPage .surname {
+    position: relative;
+    top: 55px;
+}
+
+.otherPage .age {
+    position: relative;
+    top: 110px;
+}
+
+.otherPage .city {
+    position: relative;
+    top: 110px;
+}
+
+.otherPage .about {
+    position: absolute;
+    margin-left: 150px;
+    margin-right: max(150px, 25%);
+    top: 450px;
+    left: 80px;
+}
+
+.otherPage .about_head {
+    font-size: 40px;
+    font-family: Righteous;
+}
+
+.otherPage .about_paragraph {
+    margin-top: 10px;
+    font-size: 26px;
+    font-family: Mate;
+    margin-bottom: 200px;
+}
+
+.otherPage header {
+    width: 100mv;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cfeb35;
+}
+
+.otherPage .logo {
+    margin-left: 55px;
+    font-weight: bold;
+    font-family: Gloria Hallelujah;
+    color: rgb(93, 15, 238);
+    font-size: 40px;
+    vertical-align: center;
+}
+
+.otherPage .navigation a {
+    text-decoration: none;
+    font-size: 28px;
+    color: #060a46;
+    margin-right: 100px;
+    cursor: pointer;
+}
+
+.otherPage .navigation a:hover {
+    text-decoration: underline;
+}
+
+.otherPage footer {
+    position: fixed;
+    bottom: 0;
+    width: 100vmax;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cfeb35;
+}

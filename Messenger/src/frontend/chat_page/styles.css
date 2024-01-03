@@ -1,0 +1,144 @@
+body {
+    background-color: rgba(199, 135, 252, 0.3);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.chatPage .chat_with {
+    text-decoration: none;
+    position: absolute;
+    top: 94px;
+    left: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.chatPage .chat_with:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.chatPage .chat_with div {
+    display: flex;
+    align-items: center;
+    height: 70px;
+    font-family: Josefin Sans;
+    font-size: 25px;
+    color: rgb(1, 9, 43);
+    margin-left: 15px;
+}
+
+.chatPage .chat_with img {
+    width: 70px;
+    height: 70px;
+}
+
+.chatPage .chat {
+    position: relative;
+    width: 50%;
+    height: 65vh;
+    margin-top: 100px;
+    margin-left: 20%;
+    margin-bottom: 100px;
+    border: 1px solid #000;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 8px;
+    background-color: aliceblue;
+    font-family: Josefin Sans;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.chatPage .send_message {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+}
+
+.chatPage input {
+    width: 100%;
+    margin-right: 5px;
+    padding: 5px;
+    border-radius: 3px;
+    border-color: #0d69c0;
+}
+
+.chatPage .sendButton img {
+    width: 25px;
+    height: 25px;
+}
+
+.chatPage .empty_dialogue {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    font-family: Josefin Sans;
+    font-size: 40px;
+}
+
+.chatPage .chat .not_user_message {
+    margin-left: -55%;
+    background-color: rgb(224, 149, 174);
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    width: min(50%, 450px);
+}
+
+.chatPage .chat .user_message {
+    margin-right: -55%;
+    background-color: rgb(135, 197, 135);
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 5px;
+    width: min(50%, 450px);
+}
+
+.chatPage header {
+    width: max(100%, 70vh);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cfeb35;
+}
+
+.chatPage .logo {
+    margin-left: 55px;
+    font-weight: bold;
+    font-family: Gloria Hallelujah;
+    color: rgb(93, 15, 238);
+    font-size: 40px;
+    vertical-align: center;
+}
+
+.chatPage .navigation a {
+    text-decoration: none;
+    font-size: 28px;
+    color: #060a46;
+    margin-right: 100px;
+    cursor: pointer;
+}
+
+.chatPage .navigation a:hover {
+    text-decoration: underline;
+}
+
+.chatPage footer {
+    position: fixed;
+    bottom: 0;
+    width: max(100%, 70vh);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cfeb35;
+}
