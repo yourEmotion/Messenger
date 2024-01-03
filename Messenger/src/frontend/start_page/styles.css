@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Merienda:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Merienda:wght@800&family=Patrick+Hand+SC&display=swap');
+
+body {
+    background-color: rgba(199, 135, 252, 0.3);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.startPage .main {
+    width: 100%;
+    padding-bottom: 150px;
+    padding-top: 70px;
+}
+
+.startPage header {
+    background-color: #cfeb35;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: max(100%, 60vh);
+    left: 0;
+    right: 0;
+    }
+
+.startPage .logo {
+    margin-left: 55px;
+    font-weight: bold;
+    font-family: Gloria Hallelujah;
+    color: rgb(93, 15, 238);
+    font-size: 40px;
+    vertical-align: center;
+    float: left;
+}
+
+.startPage .navigation a {
+    text-decoration: none;
+    font-size: 28px;
+    color: #060a46;
+    margin-right: 100px;
+}
+
+.startPage .navigation a:hover {
+    text-decoration: underline;
+}
+
+.startPage .main .intro {
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 130px;
+    display: flex;
+}
+
+.startPage .intro div,
+.first_block h2,
+.second_block h2,
+.third_block h2 {
+    font-family: Merienda;
+    color: rgb(43, 15, 104);
+}
+
+.startPage .first_block h2,
+.second_block h2,
+.third_block h2 {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.startPage .intro div {
+    font-size: 60px;
+    margin-left: 15px;
+}
+
+.startPage .intro .logo {
+    font-family: Gloria Hallelujah;
+    color: rgb(93, 15, 238);
+}
+
+.startPage .main h2 {
+    font-size: 40px;
+    font-family: Merienda;
+}
+
+.startPage .main p {
+    font-size: 32px;
+    font-family: Patric Hand SC;
+}
+
+.startPage .first_block,
+.third_block {
+    margin-top: 100px;
+    margin-left: 15%;
+    margin-right: 60%;
+}
+
+.startPage .first_block p,
+.third_block p {
+    margin-top: 30px;
+}
+
+.startPage .second_block {
+    margin-top: 100px;
+    margin-left: 60%;
+    margin-right: 15%;
+}
+
+.startPage .second_block p {
+    margin-top: 30px;
+}
+
+.startPage footer {
+    position: inherit;
+    bottom: 0;
+    width: max(60vh, 100%);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cfeb35;
+}

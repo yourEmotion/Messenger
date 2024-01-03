@@ -1,0 +1,133 @@
+body {
+    background-color: rgba(199, 135, 252, 0.3);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.messagesPage a {
+    text-decoration: none;
+    cursor: auto;
+}
+
+.messagesPage .main {
+    min-height: 55vh;
+    padding-bottom: 150px;
+    padding-top: 70px;
+    height: 100%;
+    display: flex;
+    overflow: auto;
+}
+
+.messagesPage .searchFriend {
+    position: absolute;
+    float: left;
+    top: 130px;
+    left: min(20%, 50px);
+    font-size: 24px;
+    font-family: Josefin Sans;
+}
+
+.messagesPage .searchFriend input {
+    background-color: #fdfbe8;
+    margin-left: 10px;
+    width: 300px;
+    height: 20px;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
+.messagesPage .main h1 {
+    margin-left: 20px;
+    font-family: Merienda;
+    font-size: 30px;
+}
+
+.messagesPage .container {
+    float: left;
+    width: 100%;
+    font-family: Josefin Sans;
+    margin-top: 90px;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.messagesPage .container .friend {
+    align-items: center;
+    margin-top: 10px;
+    background-color: rgb(226, 194, 252);
+    border: 1px solid #000000;
+    border-radius: 12px;
+    display: flex;
+}
+
+.messagesPage .container .friend:hover {
+    background-color: rgb(214, 171, 250);
+    cursor: pointer;
+}
+
+.messagesPage .container .friend:active {
+    background-color: rgb(194, 134, 243);
+    border: 2px solid #000000;
+}
+
+.messagesPage .container .friend .name {
+    margin-left: min(10%, 50px);
+    font-size: 25px;
+    font-family: Josefin Sans;
+    color: rgb(15, 6, 100);
+}
+
+.messagesPage .container .friend .name h3 {
+    font-size: 20px;
+    color:#d4150e;
+}
+
+.messagesPage img {
+    width: 70px;
+    height: 70px;
+    margin-left: min(5%, 30px);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.messagesPage header {
+    width: max(100%, 70vh);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cfeb35;
+}
+
+.messagesPage .logo {
+    margin-left: 55px;
+    font-weight: bold;
+    font-family: Gloria Hallelujah;
+    color: rgb(93, 15, 238);
+    font-size: 40px;
+    vertical-align: center;
+}
+
+.messagesPage .navigation a {
+    text-decoration: none;
+    font-size: 28px;
+    color: #060a46;
+    margin-right: 100px;
+    cursor: pointer;
+}
+
+.messagesPage .navigation a:hover {
+    text-decoration: underline;
+}
+
+.messagesPage footer {
+    bottom: 0;
+    width: max(100%, 70vh);
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cfeb35;
+}
